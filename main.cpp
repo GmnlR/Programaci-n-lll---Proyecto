@@ -19,11 +19,7 @@ struct Pelicula {
     string fuente_sinopsis;
 };
 
-<<<<<<< HEAD
-// Funcion para leer el archivo CSV
-=======
 // Función para leer el archivo CSV
->>>>>>> origin/main
 vector<Pelicula> leerCSV(const string& nombreArchivo) {
     vector<Pelicula> peliculas;
     ifstream archivo(nombreArchivo);
@@ -60,11 +56,7 @@ vector<Pelicula> leerCSV(const string& nombreArchivo) {
     return peliculas;
 }
 
-<<<<<<< HEAD
-// Funciones para indexar peliculas
-=======
 // Funciones para indexar películas
->>>>>>> origin/main
 unordered_map<string, Pelicula> indexarPeliculasPorTitulo(const vector<Pelicula>& peliculas) {
     unordered_map<string, Pelicula> indice;
     for (const auto& pelicula : peliculas) {
@@ -83,11 +75,7 @@ unordered_map<string, vector<Pelicula>> indexarPeliculasPorTag(const vector<Peli
     return indice;
 }
 
-<<<<<<< HEAD
-// Funciones de busqueda
-=======
 // Funciones de búsqueda
->>>>>>> origin/main
 vector<Pelicula> buscarPorTitulo(const unordered_map<string, Pelicula>& indiceTitulo, const string& palabra) {
     vector<Pelicula> resultados;
     for (const auto& [titulo, pelicula] : indiceTitulo) {
@@ -104,14 +92,8 @@ vector<Pelicula> buscarPorTag(const unordered_map<string, vector<Pelicula>>& ind
     }
     return {};
 }
-<<<<<<< HEAD
-//---------------------------------------------------------------------------------------------------------------------------------
-
-// Funcion para mostrar las peliculas y la sinopsis
-=======
 
 // Función para mostrar las películas y la sinopsis
->>>>>>> origin/main
 void mostrarPeliculas(const vector<Pelicula>& peliculas, int inicio, int cantidad) {
     for (int i = inicio; i < inicio + cantidad && i < peliculas.size(); ++i) {
         cout << i + 1 << ". " << peliculas[i].titulo << endl;
@@ -123,11 +105,7 @@ void mostrarSinopsis(const Pelicula& pelicula) {
     cout << "[1] Like\n[2] Ver mas tarde\n";
 }
 
-<<<<<<< HEAD
-// Funcion para recomendar peliculas
-=======
 // Función para recomendar películas
->>>>>>> origin/main
 vector<Pelicula> recomendarPeliculas(const vector<Pelicula>& peliculas, const unordered_set<string>& likes) {
     vector<Pelicula> recomendaciones;
     // Algoritmo simple basado en tags comunes
@@ -154,11 +132,7 @@ int main() {
         unordered_set<string> peliculasVerMasTarde;
 
         while (true) {
-<<<<<<< HEAD
-            cout << "Buscar pelicula por [1] titulo o [2] tag: ";
-=======
             cout << "Buscar pelicula por [1] Titulo o [2] Tag: ";
->>>>>>> origin/main
             int opcionBusqueda;
             cin >> opcionBusqueda;
 
@@ -217,8 +191,4 @@ int main() {
     }
 
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/main
