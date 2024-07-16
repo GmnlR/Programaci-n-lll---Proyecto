@@ -1,6 +1,6 @@
-# Programación III: Proyecto Final (2024 - 1)
+# 🎬 Programación III: Proyecto Final (2024 - 1)
 
-### Integrantes
+## 🧮 Integrantes
 
 | Nombre y Apellidos             | Código    |
 |--------------------------------|-----------|
@@ -10,17 +10,17 @@
 ---
 
 
-## Introducción
+## 📌 Introducción
 Bienvenidos a la presentación final del proyecto de nuestra plataforma de streaming. En esta sesión, exploraremos cómo hemos desarrollado esta plataforma que facilita la búsqueda, visualización y recomendación de películas, proporcionando una experiencia interactiva y personalizada para los usuarios.
 
-## Objetivo del Proyecto
+## 🎯 Objetivo del Proyecto
 El objetivo principal de nuestro proyecto ha sido implementar una plataforma de streaming que permita a los usuarios:
 - Buscar películas por título o por etiqueta (tag).
 - Visualizar sinopsis detalladas de películas.
 - Interactuar marcando películas como favoritas ("Like") o añadiéndolas a la lista "Ver más tarde".
 - Recibir recomendaciones personalizadas basadas en sus preferencias.
 
-## Características Implementadas
+## ✅ Características Implementadas
 
 1. **Lectura de Archivo CSV**
     - Desarrollamos una función para leer un archivo CSV que contiene información detallada de películas, como ID de IMDb, título, sinopsis, etiquetas y fuente de la sinopsis.
@@ -37,8 +37,8 @@ El objetivo principal de nuestro proyecto ha sido implementar una plataforma de 
 5. **Recomendaciones Personalizadas**
     - Utilizamos algoritmos simples basados en tags comunes para recomendar películas que puedan ser de interés para el usuario, basándonos en sus preferencias marcadas como "Like".
 
-## Tecnologías Utilizadas
+## 💻 Tecnologías Utilizadas
 - **Lenguaje de Programación:** C++
 - **Librerías:** iostream, fstream, sstream, vector, string, unordered_map, unordered_set, algorithm
 ---
-### Link Presentación:
+### 🔗 Link Presentación:
