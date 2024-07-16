@@ -1,11 +1,12 @@
 # 🎬 Programación III: Proyecto Final (2024 - 1)
 
-## 🧮 Integrantes
+## 🧮 Integrantes - Grupo 8
 
-| Nombre y Apellidos             | Código    |
-|--------------------------------|-----------|
-| Jossy Abigail Gamonal Retuerto | 202310643 |
-| Gloria Angeline Alfaro Quispe  | 202310083 |
+* Jossy Abigail Gamonal Retuerto
+* Gloria Angeline Alfaro Quispe
+* Fernando Rodrigo Fuentes Zegarra
+* Erick José Tataje Diaz 
+
 
 ---
 
@@ -15,7 +16,7 @@ Bienvenidos a la presentación final del proyecto de nuestra plataforma de strea
 
 ## 🎯 Objetivo del Proyecto
 El objetivo principal de nuestro proyecto ha sido implementar una plataforma de streaming que permita a los usuarios:
-- Buscar películas por título o por etiqueta (tag).
+- Buscar películas por título, frase, palabra o por etiqueta (tag).
 - Visualizar sinopsis detalladas de películas.
 - Interactuar marcando películas como favoritas ("Like") o añadiéndolas a la lista "Ver más tarde".
 - Recibir recomendaciones personalizadas basadas en sus preferencias.
